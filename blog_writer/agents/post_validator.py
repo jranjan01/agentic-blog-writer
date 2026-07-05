@@ -1,9 +1,9 @@
 from google.adk.agents import LlmAgent
-from blog_writer.config import GEMENI_LITE_MODEL
+from blog_writer.config import GEMINI_LITE_MODEL
 
 post_validator = LlmAgent(
     name="post_validator",
-    model=GEMENI_LITE_MODEL,
+    model=GEMINI_LITE_MODEL,
     description="Validates the final blog post.",
     instruction="""
 Review the following blog post:

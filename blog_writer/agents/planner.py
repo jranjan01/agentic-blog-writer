@@ -9,7 +9,6 @@ planner = LlmAgent(
 You are the planning specialist.
 
 Your ONLY responsibility is to create a blog outline.
-
 Do NOT write the article.
 Do NOT explain the sections.
 Do NOT generate any blog content beyond the outline.

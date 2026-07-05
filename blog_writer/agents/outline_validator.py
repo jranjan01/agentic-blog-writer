@@ -1,9 +1,9 @@
 from google.adk.agents import LlmAgent
-from blog_writer.config import GEMENI_LITE_MODEL
+from blog_writer.config import GEMINI_LITE_MODEL
 
 outline_validator = LlmAgent(
     name="outline_validator",
-    model=GEMENI_LITE_MODEL,
+    model=GEMINI_LITE_MODEL,
     description="Validates that the outline is usable.",
     instruction="""
 Review the following blog outline:

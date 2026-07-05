@@ -84,7 +84,7 @@ Create a `.env` file.
 ```env
 GOOGLE_API_KEY=YOUR_API_KEY
 GEMINI_MODEL=gemini-2.5-flash
-GEMENI_LITE_MODEL=gemini-2.5-flash-lite
+GEMINI_LITE_MODEL=gemini-2.5-flash-lite
 ```
 
 ### Start ADK Web
